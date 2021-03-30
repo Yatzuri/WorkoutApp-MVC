@@ -14,6 +14,6 @@ namespace WorkoutApp.Models
 
     public class WorkoutDbContext : DbContext
     {
-
+        public DbSet<Workout> Workouts { get; set; }
     }
 }
